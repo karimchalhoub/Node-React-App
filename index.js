@@ -8,7 +8,7 @@ const app = express(); //app object represents the underlying running express se
 // patch http method is for update one or two properties of something
 app.get('/', (req, res) => {
   //req represents the incoming request / res is response
-  res.send({ hi: 'there' });
+  res.send({ hi: 'now' });
 });
 
 // Environment variable that is running in underlying runtime
