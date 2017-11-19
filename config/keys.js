@@ -1,7 +1,7 @@
 //Determine correct keys
 
-if (process.end.NODE_ENV === 'production') {
-  module.eports = require('./prod');
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./prod');
 } else {
-  module.eports = require('./dev');
+  module.exports = require('./dev');
 }
